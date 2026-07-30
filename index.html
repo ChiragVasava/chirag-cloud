@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Chirag Vasava — Full-Stack Developer &amp; AI Builder</title>
+<meta name="description" content="Chirag Vasava — Full-Stack Developer and AI Builder. Building production-grade platforms across MERN, Next.js, FastAPI, and Gemini AI." />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<!-- ===================== NAV ===================== -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">CV<span class="dot">.</span></a>
+    <nav class="nav__links">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a href="#contact" class="nav__cta">Get in touch</a>
+    <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+  <div class="nav__mobile" id="navMobile">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#timeline">Timeline</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- ===================== HERO ===================== -->
+  <section class="hero">
+    <div class="hero__inner">
+      <p class="eyebrow mono">Vadodara, Gujarat — India</p>
+      <h1 class="hero__name">Chirag Vasava</h1>
+      <p class="hero__role">Full-Stack Developer &amp; AI Builder</p>
+      <p class="hero__desc">
+        3rd-year Computer Science &amp; Engineering student shipping production-grade platforms
+        across MERN, Next.js, FastAPI, and Gemini AI — from intelligent test automation
+        to ERP-style systems.
+      </p>
+      <div class="hero__actions">
+        <a href="#projects" class="btn btn--primary">View Projects</a>
+        <a href="assets/Chirag_Vasava.pdf" class="btn btn--ghost" download>Download Résumé</a>
+      </div>
+
+      <!-- Signature element: live deploy ticker -->
+      <div class="ticker" role="status" aria-live="polite">
+        <span class="ticker__dot"></span>
+        <span class="ticker__label mono">status</span>
+        <span class="ticker__line mono" id="tickerLine">$ deploying testforge-ai → vercel</span>
+        <span class="ticker__cursor" aria-hidden="true">▍</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="section__inner about">
+      <div class="about__label">
+        <p class="eyebrow mono">01 — About</p>
+        <h2>Building at the intersection<br/>of full-stack &amp; AI.</h2>
+      </div>
+      <div class="about__body">
+        <p>
+          I'm a Computer Science &amp; Engineering student at Maharaja Sayajirao University
+          of Baroda, building on a Diploma in Information Technology from Parul University.
+          My work sits between full-stack architecture and applied AI — designing systems
+          with MERN, Next.js, and FastAPI, then wiring them to intelligent pipelines powered
+          by Gemini and Python AST analysis.
+        </p>
+        <p>
+          I care equally about system design and interface craft, and I like measuring what
+          I build — every project here ships with real deployment and real Lighthouse
+          performance data, not just a description of what it does.
+        </p>
+        <p>
+          Outside of solo projects, I led an engineering team at Hack-A-Throne 2025 as Team
+          Leader, and helped build RentFlow through to the offline final round of the
+          Odoo × GCET Hackathon 2026.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SKILLS ===================== -->
+  <section class="section section--alt" id="skills">
+    <div class="section__inner">
+      <p class="eyebrow mono">02 — Skills</p>
+      <h2 class="section__title">What I build with.</h2>
+
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <h3 class="mono">Frontend</h3>
+          <div class="tags">
+            <span>React.js</span><span>Next.js</span><span>TypeScript</span>
+            <span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>Bootstrap</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">Backend</h3>
+          <div class="tags">
+            <span>Node.js</span><span>Express.js</span><span>FastAPI (Python)</span><span>Appwrite</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">AI &amp; Testing</h3>
+          <div class="tags">
+            <span>Gemini 2.5 Flash API</span><span>Playwright</span><span>PyTest</span><span>Python AST</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">Languages</h3>
+          <div class="tags">
+            <span>JavaScript</span><span>TypeScript</span><span>Python</span><span>Java</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">Databases</h3>
+          <div class="tags">
+            <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+            <span>SQLite</span><span>SQLAlchemy</span><span>Prisma ORM</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">Deployment</h3>
+          <div class="tags">
+            <span>AWS EC2</span><span>Render</span><span>Railway</span><span>Vercel</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">APIs &amp; Payments</h3>
+          <div class="tags">
+            <span>RESTful APIs</span><span>Razorpay</span><span>JDBC</span>
+          </div>
+        </div>
+
+        <div class="skill-card">
+          <h3 class="mono">DevOps &amp; Tools</h3>
+          <div class="tags">
+            <span>Git</span><span>GitHub</span><span>CI/CD (GitHub Actions)</span><span>Postman</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PROJECTS ===================== -->
+  <section class="section" id="projects">
+    <div class="section__inner">
+      <p class="eyebrow mono">03 — Projects</p>
+      <h2 class="section__title">Shipped, deployed, measured.</h2>
+
+      <div class="projects-grid">
+
+        <!-- TestForge AI -->
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>TestForge AI</h3>
+            <p class="project-card__cat mono">Intelligent Test Automation Platform</p>
+          </div>
+          <p class="project-card__desc">
+            Parses Python source via native AST analysis, auto-generates PyTest boilerplate,
+            and uses Gemini 2.5 Flash to suggest edge-case assertions and generate Playwright
+            scripts from plain-English steps — backed by a CI/CD quality gate with weighted
+            risk scoring.
+          </p>
+          <div class="tags tags--sm">
+            <span>Next.js</span><span>FastAPI</span><span>Python</span><span>SQLAlchemy</span>
+            <span>Gemini 2.5 Flash</span><span>Playwright</span><span>PyTest</span>
+          </div>
+          <div class="project-card__metrics mono">
+            <span>Lighthouse Desktop 100/98/100/100</span>
+            <span>Mobile 96/98/100/100</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/ChiragVasava/TestForge-AI" target="_blank" rel="noopener">GitHub →</a>
+            <a href="https://testforge-ai-lime.vercel.app/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+        <!-- DayFlow -->
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>DayFlow</h3>
+            <p class="project-card__cat mono">Human Resource Management System</p>
+          </div>
+          <p class="project-card__desc">
+            A role-based MERN HRMS with an auto-generated Employee ID system, JWT
+            authentication across Admin / HR / Employee roles, an interactive attendance
+            calendar, leave approval workflows, and a payroll engine with full gross/net
+            salary breakdowns.
+          </p>
+          <div class="tags tags--sm">
+            <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            <span>JWT</span><span>bcrypt</span>
+          </div>
+          <div class="project-card__metrics mono">
+            <span>Lighthouse 100/100 Performance (Desktop &amp; Mobile)</span>
+            <span>0 ms TBT</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/ChiragVasava/DayFlow" target="_blank" rel="noopener">GitHub →</a>
+            <a href="https://day-flow-eight.vercel.app/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+        <!-- UniNest AI -->
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>UniNest AI</h3>
+            <p class="project-card__cat mono">Campus Recruitment Operating System</p>
+          </div>
+          <p class="project-card__desc">
+            Handles the full campus placement lifecycle — drive discovery, resume
+            verification, interview scheduling, and offer management — powered by a Gemini
+            1.5 Flash ATS engine that scores resumes against job descriptions with a
+            heuristic fallback.
+          </p>
+          <div class="tags tags--sm">
+            <span>Next.js 15</span><span>Express.js</span><span>TypeScript</span>
+            <span>Prisma ORM</span><span>PostgreSQL</span><span>Gemini 1.5 Flash</span>
+          </div>
+          <div class="project-card__metrics mono">
+            <span>Lighthouse Desktop 100/98/100/100</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/ChiragVasava/UniNest-AI" target="_blank" rel="noopener">GitHub →</a>
+            <a href="https://uninest-mu.vercel.app/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+        <!-- RentFlow -->
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>RentFlow</h3>
+            <p class="project-card__cat mono">ERP-Style Rental Management System</p>
+          </div>
+          <p class="project-card__desc">
+            An ERP-style rental platform with role-based dashboards for Admin, Vendor,
+            and Customer — covering product catalog, quotation management, order
+            lifecycle, and PDF invoice generation with a Razorpay-backed checkout.
+          </p>
+          <div class="tags tags--sm">
+            <span>MongoDB</span><span>Express.js</span><span>React</span>
+            <span>Node.js</span><span>Razorpay</span>
+          </div>
+          <div class="project-card__metrics mono">
+            <span>Odoo × GCET Hackathon 2026 — Offline Finalist</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/ChiragVasava/RentFlow" target="_blank" rel="noopener">GitHub →</a>
+            <a href="https://rent-flow-theta.vercel.app/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+        <!-- PlayLoud -->
+        <article class="project-card">
+          <div class="project-card__head">
+            <h3>PlayLoud</h3>
+            <p class="project-card__cat mono">Online Music Streaming Platform</p>
+          </div>
+          <p class="project-card__desc">
+            A full-stack music streaming platform with authentication, personalized
+            playlists, and a persistent global player — using Appwrite for auth, database,
+            and file storage, with Razorpay-powered premium subscriptions.
+          </p>
+          <div class="tags tags--sm">
+            <span>React.js</span><span>Node.js</span><span>Express.js</span>
+            <span>Appwrite</span><span>Razorpay</span><span>Tailwind CSS</span>
+          </div>
+          <div class="project-card__links">
+            <a href="https://github.com/ChiragVasava/PlayLoud" target="_blank" rel="noopener">GitHub →</a>
+            <a href="https://play-loud-azure.vercel.app/" target="_blank" rel="noopener">Live demo →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TIMELINE (Education + Achievements) ===================== -->
+  <section class="section section--alt" id="timeline">
+    <div class="section__inner">
+      <p class="eyebrow mono">04 — Timeline</p>
+      <h2 class="section__title">Education &amp; achievements.</h2>
+
+      <div class="timeline">
+
+        <div class="timeline__item">
+          <span class="timeline__dot"></span>
+          <div class="timeline__content">
+            <p class="timeline__date mono">2024 — 2027</p>
+            <h3>B.E. in Computer Science and Engineering</h3>
+            <p class="timeline__sub">Maharaja Sayajirao University of Baroda</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <span class="timeline__dot"></span>
+          <div class="timeline__content">
+            <p class="timeline__date mono">2021 — 2024</p>
+            <h3>Diploma in Information Technology</h3>
+            <p class="timeline__sub">Parul University</p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <span class="timeline__dot timeline__dot--accent"></span>
+          <div class="timeline__content">
+            <p class="timeline__date mono">2025 — Team Leader</p>
+            <h3>Hack-A-Throne 2025, MSU Baroda</h3>
+            <p class="timeline__sub">
+              Led a team to design and ship an AI-powered Event Management Portal within a
+              32-hour hackathon window — implementing AI-based vendor recommendations and
+              image-based product search.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item">
+          <span class="timeline__dot timeline__dot--accent"></span>
+          <div class="timeline__content">
+            <p class="timeline__date mono">2026</p>
+            <h3>Odoo × GCET Hackathon 2026</h3>
+            <p class="timeline__sub">
+              Built RentFlow, a complete ERP-style rental platform, and advanced from
+              virtual screening to the offline final round.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section contact" id="contact">
+    <div class="section__inner contact__inner">
+      <p class="eyebrow mono">05 — Contact</p>
+      <h2>Let's build something together.</h2>
+      <p class="contact__desc">
+        Open to full-stack and AI-focused roles, collaborations, and interesting problems.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:v.chira.007@gmail.com" class="btn btn--primary">Say hello →</a>
+      </div>
+      <div class="social-row">
+        <a href="https://github.com/ChiragVasava" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/chirag-vasava-050784273/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://leetcode.com/u/ChiragVasava/" target="_blank" rel="noopener">LeetCode</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <p>&copy; 2026 Chirag Vasava</p>
+  <p class="mono footer__built">Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
