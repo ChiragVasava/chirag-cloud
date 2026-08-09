@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chirag Vasava — Full-Stack Developer &amp; AI Builder</title>
+  <meta name="description" content="Chirag Vasava — Full-Stack Developer & AI Builder. Building production-grade platforms with MERN, Next.js, FastAPI, and Gemini AI. Based in Vadodara, India." />
+  <meta name="author" content="Chirag Vasava" />
+  <meta name="keywords" content="Chirag Vasava, Full Stack Developer, AI Builder, MERN, Next.js, FastAPI, Gemini AI, React, Portfolio, MSU Baroda, TestForge AI, DayFlow, UniNest AI, RentFlow, PlayLoud" />
+  <link rel="canonical" href="https://chiragvasava.me/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Chirag Vasava | Full-Stack Developer & AI Builder" />
+  <meta property="og:description" content="Building production-grade platforms at the intersection of full-stack engineering and AI." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://chiragvasava.me/" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════
+     NAVBAR
+══════════════════════════════════════════════════ -->
+<header id="nav" class="nav">
+  <div class="nav__inner">
+    <a href="#top" class="nav__logo">
+      <span class="logo-bracket">&lt;</span>CV<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary navigation">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#skills" class="nav__link">Skills</a>
+      <a href="#projects" class="nav__link">Projects</a>
+      <a href="#experience" class="nav__link">Experience</a>
+      <a href="#contact" class="nav__link">Contact</a>
+    </nav>
+
+    <div class="nav__right">
+      <!-- Dark/Light Mode Toggle -->
+      <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <span class="theme-btn__track">
+          <span class="theme-btn__thumb">
+            <i class="fa-solid fa-sun theme-sun"></i>
+            <i class="fa-solid fa-moon theme-moon"></i>
+          </span>
+        </span>
+      </button>
+      <a href="#contact" class="nav__cta">Get in touch</a>
+      <button class="nav__burger" id="burger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile menu -->
+  <div class="nav__mobile" id="navMobile" aria-hidden="true">
+    <a href="#about" class="mobile-link">About</a>
+    <a href="#skills" class="mobile-link">Skills</a>
+    <a href="#projects" class="mobile-link">Projects</a>
+    <a href="#experience" class="mobile-link">Experience</a>
+    <a href="#contact" class="mobile-link">Contact</a>
+    <div class="mobile-theme-row">
+      <span>Theme</span>
+      <button id="theme-toggle-mobile" class="theme-btn theme-btn--sm" aria-label="Toggle theme">
+        <span class="theme-btn__track">
+          <span class="theme-btn__thumb">
+            <i class="fa-solid fa-sun theme-sun"></i>
+            <i class="fa-solid fa-moon theme-moon"></i>
+          </span>
+        </span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- ══════════════════════════════════════════════════
+     HERO
+══════════════════════════════════════════════════ -->
+<section class="hero" id="home" aria-label="Hero section">
+  <!-- Ambient mesh gradient orbs -->
+  <div class="hero__orb hero__orb--1" aria-hidden="true"></div>
+  <div class="hero__orb hero__orb--2" aria-hidden="true"></div>
+  <div class="hero__orb hero__orb--3" aria-hidden="true"></div>
+  <!-- Grid noise overlay -->
+  <div class="hero__grid" aria-hidden="true"></div>
+
+  <div class="hero__inner">
+    <div class="hero__badge reveal-fade">
+      <span class="pulse-dot" aria-hidden="true"></span>
+      <span>Available for work · Vadodara, India</span>
+    </div>
+
+    <h1 class="hero__name reveal-fade reveal-delay-1">
+      Chirag<br /><span class="name-gradient">Vasava</span>
+    </h1>
+
+    <p class="hero__role reveal-fade reveal-delay-2">
+      Full-Stack Developer &amp; <span class="role-accent">AI Builder</span>
+    </p>
+
+    <p class="hero__desc reveal-fade reveal-delay-3">
+      3rd-year CSE student at MSU Baroda — shipping production-grade platforms with
+      <strong>MERN</strong>, <strong>Next.js</strong>, <strong>FastAPI</strong> and <strong>Gemini AI</strong>.
+      From intelligent test automation to ERP-style systems.
+    </p>
+
+    <!-- Stats row -->
+    <div class="hero__stats reveal-fade reveal-delay-3">
+      <div class="stat">
+        <span class="stat__num">6+</span>
+        <span class="stat__label">Live Projects</span>
+      </div>
+      <div class="stat__divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat__num">2</span>
+        <span class="stat__label">Hackathons</span>
+      </div>
+      <div class="stat__divider" aria-hidden="true"></div>
+      <div class="stat">
+        <span class="stat__num">3+</span>
+        <span class="stat__label">Years Coding</span>
+      </div>
+    </div>
+
+    <div class="hero__actions reveal-fade reveal-delay-4">
+      <a href="#projects" class="btn btn--primary" id="hero-view-projects">
+        <i class="fa-solid fa-rocket" aria-hidden="true"></i> View Projects
+      </a>
+      <a href="assets/Chirag_Vasava.pdf" class="btn btn--ghost" download id="hero-resume">
+        <i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Résumé
+      </a>
+    </div>
+
+    <!-- Social icons -->
+    <div class="hero__socials reveal-fade reveal-delay-4">
+      <a href="https://github.com/ChiragVasava" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="social-icon" id="social-github">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/chirag-vasava-050784273/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-icon" id="social-linkedin">
+        <i class="fa-brands fa-linkedin-in"></i>
+      </a>
+      <a href="https://leetcode.com/u/ChiragVasava/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode" class="social-icon" id="social-leetcode">
+        <i class="fa-solid fa-code"></i>
+      </a>
+      <a href="mailto:v.chira.007@gmail.com" aria-label="Email" class="social-icon" id="social-email">
+        <i class="fa-solid fa-envelope"></i>
+      </a>
+    </div>
+
+    <!-- Terminal deploy ticker -->
+    <div class="ticker reveal-fade reveal-delay-5" role="status" aria-live="polite" id="ticker">
+      <div class="ticker__bar">
+        <span class="ticker__dot" aria-hidden="true"></span>
+        <span class="ticker__label mono">$ deploy</span>
+        <span class="ticker__line mono" id="tickerLine">deploying testforge-ai → vercel</span>
+        <span class="ticker__cursor" aria-hidden="true">▍</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Scroll indicator -->
+  <a href="#about" class="scroll-down" aria-label="Scroll to about section">
+    <i class="fa-solid fa-chevron-down"></i>
+  </a>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     ABOUT
+══════════════════════════════════════════════════ -->
+<section class="section" id="about" aria-labelledby="about-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <p class="eyebrow mono">01 — About</p>
+      <h2 id="about-title" class="section__title reveal-up">Building at the intersection<br />of full-stack &amp; AI.</h2>
+    </div>
+
+    <div class="about__grid">
+      <div class="about__left reveal-left">
+        <div class="about__avatar-wrap">
+          <div class="about__avatar-ring">
+            <div class="about__avatar-inner">
+              <span class="avatar-initials">CV</span>
+            </div>
+          </div>
+          <div class="about__badge">
+            <span class="pulse-dot pulse-dot--green"></span>
+            Open to Work
+          </div>
+        </div>
+
+        <div class="about__quick-info">
+          <div class="quick-info-item">
+            <i class="fa-solid fa-location-dot" aria-hidden="true"></i>
+            <span>Vadodara, Gujarat · India</span>
+          </div>
+          <div class="quick-info-item">
+            <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+            <span>MSU Baroda — CSE 2024–27</span>
+          </div>
+          <div class="quick-info-item">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            <a href="mailto:v.chira.007@gmail.com">v.chira.007@gmail.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="about__right reveal-right">
+        <p class="about__p">
+          I'm a <strong>Computer Science &amp; Engineering</strong> student at
+          <strong>Maharaja Sayajirao University of Baroda</strong>, building on a strong Diploma in IT
+          from Parul University. My work lives at the intersection of full-stack architecture and
+          applied AI.
+        </p>
+        <p class="about__p">
+          I design and ship production-grade platforms with <strong>MERN</strong>, <strong>Next.js</strong>,
+          and <strong>FastAPI</strong>, then wire them to intelligent pipelines powered by
+          <strong>Gemini Flash</strong>, Python AST sandboxes, and LLM-native tooling.
+        </p>
+        <p class="about__p">
+          I care equally about system design depth and interface craftsmanship — every project
+          ships with real deployment and real Lighthouse performance data, not just a description
+          of what it does. Beyond code, I led engineering teams at
+          <strong>Hack-A-Throne 2025</strong> and advanced to the offline finals of the
+          <strong>Odoo × GCET Hackathon 2026</strong> with RentFlow.
+        </p>
+
+        <div class="about__actions">
+          <a href="#projects" class="btn btn--primary btn--sm">
+            <i class="fa-solid fa-layer-group" aria-hidden="true"></i> See My Work
+          </a>
+          <a href="assets/Chirag_Vasava.pdf" class="btn btn--ghost btn--sm" target="_blank">
+            <i class="fa-solid fa-file-lines" aria-hidden="true"></i> View Résumé
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     SKILLS
+══════════════════════════════════════════════════ -->
+<section class="section section--alt" id="skills" aria-labelledby="skills-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <p class="eyebrow mono">02 — Skills</p>
+      <h2 id="skills-title" class="section__title reveal-up">What I build with.</h2>
+    </div>
+
+    <div class="skills-grid">
+
+      <div class="skill-card reveal-up" style="--delay: 0.05s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-display"></i>
+        </div>
+        <h3 class="skill-card__title">Frontend</h3>
+        <div class="tags">
+          <span>React.js</span><span>Next.js</span><span>TypeScript</span>
+          <span>HTML5</span><span>CSS3</span><span>Tailwind CSS</span><span>Bootstrap</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.10s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-server"></i>
+        </div>
+        <h3 class="skill-card__title">Backend</h3>
+        <div class="tags">
+          <span>Node.js</span><span>Express.js</span><span>FastAPI</span><span>Appwrite</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.15s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-brain"></i>
+        </div>
+        <h3 class="skill-card__title">AI &amp; Testing</h3>
+        <div class="tags">
+          <span>Gemini 2.5 Flash</span><span>Playwright</span><span>PyTest</span><span>Python AST</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.20s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <h3 class="skill-card__title">Languages</h3>
+        <div class="tags">
+          <span>JavaScript</span><span>TypeScript</span><span>Python</span><span>Java</span><span>C/C++</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.25s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-database"></i>
+        </div>
+        <h3 class="skill-card__title">Databases</h3>
+        <div class="tags">
+          <span>PostgreSQL</span><span>MySQL</span><span>MongoDB</span>
+          <span>SQLite</span><span>SQLAlchemy</span><span>Prisma ORM</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.30s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-cloud-arrow-up"></i>
+        </div>
+        <h3 class="skill-card__title">Deployment</h3>
+        <div class="tags">
+          <span>AWS EC2</span><span>Vercel</span><span>Render</span><span>Railway</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.35s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-solid fa-credit-card"></i>
+        </div>
+        <h3 class="skill-card__title">APIs &amp; Payments</h3>
+        <div class="tags">
+          <span>RESTful APIs</span><span>Razorpay</span><span>JDBC</span>
+        </div>
+      </div>
+
+      <div class="skill-card reveal-up" style="--delay: 0.40s">
+        <div class="skill-card__icon" aria-hidden="true">
+          <i class="fa-brands fa-git-alt"></i>
+        </div>
+        <h3 class="skill-card__title">DevOps &amp; Tools</h3>
+        <div class="tags">
+          <span>Git</span><span>GitHub</span><span>CI/CD</span><span>Postman</span><span>Docker</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     PROJECTS
+══════════════════════════════════════════════════ -->
+<section class="section" id="projects" aria-labelledby="projects-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <p class="eyebrow mono">03 — Projects</p>
+      <h2 id="projects-title" class="section__title reveal-up">Shipped, deployed, measured.</h2>
+      <p class="section__subtitle reveal-up">6 live products — each solving a real problem, deployed on custom subdomains.</p>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- TestForge AI -->
+      <article class="project-card reveal-up" style="--delay: 0.05s" id="project-testforge">
+        <div class="project-card__num mono" aria-hidden="true">01</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">⚡</div>
+            <div>
+              <h3 class="project-card__name">TestForge AI</h3>
+              <p class="project-card__cat mono">Intelligent Test Automation Platform</p>
+            </div>
+          </div>
+          <span class="live-badge">
+            <span class="pulse-dot pulse-dot--green pulse-dot--sm" aria-hidden="true"></span>
+            Live
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          Parses Python source via native AST analysis, auto-generates PyTest boilerplate,
+          and uses Gemini 2.5 Flash to suggest edge-case assertions and generate Playwright
+          scripts from plain-English steps — backed by a CI/CD quality gate with weighted risk scoring.
+        </p>
+
+        <div class="project-card__metrics">
+          <span class="metric">
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+            Lighthouse Desktop 100/98/100/100
+          </span>
+          <span class="metric">
+            <i class="fa-solid fa-mobile-screen-button" aria-hidden="true"></i>
+            Mobile 96/98/100/100
+          </span>
+        </div>
+
+        <div class="tags tags--sm">
+          <span>Next.js</span><span>FastAPI</span><span>Python</span>
+          <span>SQLAlchemy</span><span>Gemini 2.5 Flash</span><span>Playwright</span><span>PyTest</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/TestForge-AI" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="TestForge AI GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://testforge.chiragvasava.me" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="TestForge AI Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+      <!-- DayFlow -->
+      <article class="project-card reveal-up" style="--delay: 0.10s" id="project-dayflow">
+        <div class="project-card__num mono" aria-hidden="true">02</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">📅</div>
+            <div>
+              <h3 class="project-card__name">DayFlow</h3>
+              <p class="project-card__cat mono">Human Resource Management System</p>
+            </div>
+          </div>
+          <span class="live-badge">
+            <span class="pulse-dot pulse-dot--green pulse-dot--sm" aria-hidden="true"></span>
+            Live
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          A role-based MERN HRMS with an auto-generated Employee ID system, JWT authentication
+          across Admin / HR / Employee roles, an interactive attendance calendar, leave approval
+          workflows, and a payroll engine with full gross/net salary breakdowns.
+        </p>
+
+        <div class="project-card__metrics">
+          <span class="metric">
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+            Lighthouse 100/100 Performance (Desktop &amp; Mobile)
+          </span>
+          <span class="metric">
+            <i class="fa-solid fa-bolt" aria-hidden="true"></i>
+            0 ms TBT
+          </span>
+        </div>
+
+        <div class="tags tags--sm">
+          <span>MongoDB</span><span>Express.js</span><span>React</span>
+          <span>Node.js</span><span>JWT</span><span>bcrypt</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/DayFlow" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="DayFlow GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://dayflow.chiragvasava.me" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="DayFlow Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+      <!-- UniNest AI -->
+      <article class="project-card reveal-up" style="--delay: 0.15s" id="project-uninest">
+        <div class="project-card__num mono" aria-hidden="true">03</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">🎓</div>
+            <div>
+              <h3 class="project-card__name">UniNest AI</h3>
+              <p class="project-card__cat mono">Campus Recruitment Operating System</p>
+            </div>
+          </div>
+          <span class="live-badge">
+            <span class="pulse-dot pulse-dot--green pulse-dot--sm" aria-hidden="true"></span>
+            Live
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          Handles the full campus placement lifecycle — drive discovery, resume verification,
+          interview scheduling, and offer management — powered by a Gemini 1.5 Flash ATS engine
+          that scores resumes against job descriptions with a heuristic fallback.
+        </p>
+
+        <div class="project-card__metrics">
+          <span class="metric">
+            <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+            Lighthouse Desktop 100/98/100/100
+          </span>
+        </div>
+
+        <div class="tags tags--sm">
+          <span>Next.js 15</span><span>Express.js</span><span>TypeScript</span>
+          <span>Prisma ORM</span><span>PostgreSQL</span><span>Gemini 1.5 Flash</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/UniNest-AI" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="UniNest AI GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://uninest.chiragvasava.me" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="UniNest AI Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+      <!-- PlayLoud -->
+      <article class="project-card reveal-up" style="--delay: 0.20s" id="project-playloud">
+        <div class="project-card__num mono" aria-hidden="true">04</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">🎵</div>
+            <div>
+              <h3 class="project-card__name">PlayLoud</h3>
+              <p class="project-card__cat mono">Online Music Streaming Platform</p>
+            </div>
+          </div>
+          <span class="live-badge">
+            <span class="pulse-dot pulse-dot--green pulse-dot--sm" aria-hidden="true"></span>
+            Live
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          A full-stack music streaming platform with authentication, personalized playlists,
+          and a persistent global player — using Appwrite for auth, database, and file storage,
+          with Razorpay-powered premium subscriptions.
+        </p>
+
+        <div class="tags tags--sm">
+          <span>React.js</span><span>Node.js</span><span>Express.js</span>
+          <span>Appwrite</span><span>Razorpay</span><span>Tailwind CSS</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/PlayLoud" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="PlayLoud GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://playloud.chiragvasava.me" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="PlayLoud Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+      <!-- RentFlow -->
+      <article class="project-card reveal-up" style="--delay: 0.25s" id="project-rentflow">
+        <div class="project-card__num mono" aria-hidden="true">05</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">🏭</div>
+            <div>
+              <h3 class="project-card__name">RentFlow</h3>
+              <p class="project-card__cat mono">ERP-Style Rental Management System</p>
+            </div>
+          </div>
+          <span class="live-badge live-badge--award">
+            <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+            Finalist
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          An ERP-style rental platform with role-based dashboards for Admin, Vendor, and Customer —
+          covering product catalog, quotation management, order lifecycle, and PDF invoice generation
+          with a Razorpay-backed checkout.
+        </p>
+
+        <div class="project-card__metrics">
+          <span class="metric metric--gold">
+            <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+            Odoo × GCET Hackathon 2026 — Offline Finalist
+          </span>
+        </div>
+
+        <div class="tags tags--sm">
+          <span>MongoDB</span><span>Express.js</span><span>React</span>
+          <span>Node.js</span><span>Razorpay</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/RentFlow" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="RentFlow GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://rent-flow-theta.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="RentFlow Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+      <!-- GET ME A CHAI -->
+      <article class="project-card reveal-up" style="--delay: 0.30s" id="project-getmeachai">
+        <div class="project-card__num mono" aria-hidden="true">06</div>
+        <div class="project-card__top">
+          <div class="project-card__head">
+            <div class="project-card__emoji" aria-hidden="true">☕</div>
+            <div>
+              <h3 class="project-card__name">GET ME A CHAI</h3>
+              <p class="project-card__cat mono">Creator Crowdfunding Platform</p>
+            </div>
+          </div>
+          <span class="live-badge">
+            <span class="pulse-dot pulse-dot--green pulse-dot--sm" aria-hidden="true"></span>
+            Live
+          </span>
+        </div>
+
+        <p class="project-card__desc">
+          A lightweight crowdfunding checkout tool letting supporters send direct micro-donations
+          ("chai tips") to creators instantly via Razorpay. Built with Next.js — removes payment
+          hurdles so fans can appreciate creators as easily as sending a message.
+        </p>
+
+        <div class="tags tags--sm">
+          <span>Next.js</span><span>Razorpay</span><span>Micro-payments</span>
+        </div>
+
+        <div class="project-card__links">
+          <a href="https://github.com/ChiragVasava/GET-ME-A-CHAI" target="_blank" rel="noopener noreferrer" class="project-link" aria-label="GET ME A CHAI GitHub">
+            <i class="fa-brands fa-github"></i> GitHub
+          </a>
+          <a href="https://get-me-a-chai-one.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link project-link--live" aria-label="GET ME A CHAI Live Demo">
+            <i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     EXPERIENCE / TIMELINE
+══════════════════════════════════════════════════ -->
+<section class="section section--alt" id="experience" aria-labelledby="experience-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <p class="eyebrow mono">04 — Experience</p>
+      <h2 id="experience-title" class="section__title reveal-up">Education &amp; achievements.</h2>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Education items -->
+      <div class="timeline__group">
+        <h3 class="timeline__group-label reveal-up">
+          <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education
+        </h3>
+
+        <div class="timeline__item reveal-left" id="edu-msu">
+          <div class="timeline__dot timeline__dot--blue" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date mono">2024 — 2027</span>
+              <span class="timeline__badge">Current</span>
+            </div>
+            <h4 class="timeline__title">B.E. in Computer Science and Engineering</h4>
+            <p class="timeline__org">Maharaja Sayajirao University of Baroda</p>
+            <p class="timeline__detail">Deep focus on full-stack systems, AI/ML pipelines, and scalable architecture.</p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal-left" id="edu-parul" style="--delay: 0.1s">
+          <div class="timeline__dot timeline__dot--blue" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date mono">2021 — 2024</span>
+            </div>
+            <h4 class="timeline__title">Diploma in Information Technology</h4>
+            <p class="timeline__org">Parul University</p>
+            <p class="timeline__detail">Foundation in software engineering, databases, networking &amp; web technologies.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Achievement items -->
+      <div class="timeline__group">
+        <h3 class="timeline__group-label reveal-up">
+          <i class="fa-solid fa-trophy" aria-hidden="true"></i> Achievements
+        </h3>
+
+        <div class="timeline__item reveal-left" id="ach-hackathrone" style="--delay: 0.05s">
+          <div class="timeline__dot timeline__dot--purple" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date mono">2025 — Team Leader</span>
+              <span class="timeline__badge timeline__badge--purple">AI Hackathon</span>
+            </div>
+            <h4 class="timeline__title">Hack-A-Throne 2025, MSU Baroda</h4>
+            <p class="timeline__org">Team Leader</p>
+            <p class="timeline__detail">
+              Led a team to design and ship an AI-powered Event Management Portal within a
+              32-hour hackathon window — implementing AI-based vendor recommendations and
+              image-based product search.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline__item reveal-left" id="ach-odoo" style="--delay: 0.10s">
+          <div class="timeline__dot timeline__dot--gold" aria-hidden="true"></div>
+          <div class="timeline__content">
+            <div class="timeline__meta">
+              <span class="timeline__date mono">2026</span>
+              <span class="timeline__badge timeline__badge--gold">Offline Finalist</span>
+            </div>
+            <h4 class="timeline__title">Odoo × GCET Hackathon 2026</h4>
+            <p class="timeline__org">Co-Developer &amp; Offline Finalist</p>
+            <p class="timeline__detail">
+              Built RentFlow — a complete ERP-style rental platform — and advanced from virtual
+              screening to the offline final round, selected among thousands of participants.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════════════════════
+     CONTACT
+══════════════════════════════════════════════════ -->
+<section class="section contact-section" id="contact" aria-labelledby="contact-title">
+  <div class="section__inner">
+    <div class="section__header">
+      <p class="eyebrow mono">05 — Contact</p>
+      <h2 id="contact-title" class="section__title reveal-up">Let's build something<br />together.</h2>
+      <p class="section__subtitle reveal-up">Open to full-stack and AI-focused roles, collaborations, and interesting problems. I typically respond within 24 hours.</p>
+    </div>
+
+    <div class="contact-card reveal-up" id="contact-card">
+      <div class="contact-card__available">
+        <span class="pulse-dot pulse-dot--green"></span>
+        Available for Work
+      </div>
+
+      <div class="contact-card__body">
+        <div class="contact-card__info">
+          <div class="contact-info-item">
+            <span class="contact-info-label mono">Email</span>
+            <a href="mailto:v.chira.007@gmail.com" class="contact-info-value">v.chira.007@gmail.com</a>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-info-label mono">Location</span>
+            <span class="contact-info-value">Vadodara, Gujarat, India</span>
+          </div>
+          <div class="contact-info-item">
+            <span class="contact-info-label mono">Response</span>
+            <span class="contact-info-value">Within 24 hours</span>
+          </div>
+        </div>
+
+        <div class="contact-card__cta">
+          <a href="mailto:v.chira.007@gmail.com" class="btn btn--primary btn--lg" id="contact-email-btn">
+            <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Say Hello
+          </a>
+          <div class="contact-social-row">
+            <a href="https://github.com/ChiragVasava" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="GitHub">
+              <i class="fa-brands fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/chirag-vasava-050784273/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+            </a>
+            <a href="https://leetcode.com/u/ChiragVasava/" target="_blank" rel="noopener noreferrer" class="contact-social-link" aria-label="LeetCode">
+              <i class="fa-solid fa-code"></i> LeetCode
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════════════════════════════════════════
+     FOOTER
+══════════════════════════════════════════════════ -->
+<footer class="footer" id="site-footer">
+  <div class="footer__inner">
+    <div class="footer__brand">
+      <a href="#top" class="footer__logo">
+        <span class="logo-bracket">&lt;</span>CV<span class="logo-slash">/</span><span class="logo-bracket">&gt;</span>
+      </a>
+      <p class="footer__tagline">Full-Stack Developer &amp; AI Builder<br />MSU Baroda · chiragvasava.me</p>
+      <div class="footer__socials">
+        <a href="https://github.com/ChiragVasava" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/chirag-vasava-050784273/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://leetcode.com/u/ChiragVasava/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode"><i class="fa-solid fa-code"></i></a>
+        <a href="mailto:v.chira.007@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+
+    <div class="footer__col">
+      <h4>Navigate</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="footer__col">
+      <h4>Projects</h4>
+      <ul>
+        <li><a href="https://testforge.chiragvasava.me" target="_blank">TestForge AI</a></li>
+        <li><a href="https://dayflow.chiragvasava.me" target="_blank">DayFlow</a></li>
+        <li><a href="https://uninest.chiragvasava.me" target="_blank">UniNest AI</a></li>
+        <li><a href="https://playloud.chiragvasava.me" target="_blank">PlayLoud</a></li>
+        <li><a href="https://rent-flow-theta.vercel.app" target="_blank">RentFlow</a></li>
+        <li><a href="https://get-me-a-chai-one.vercel.app/" target="_blank">GET ME A CHAI</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer__bottom">
+    <p>Made with <span class="heart" aria-hidden="true">❤️</span> by <a href="#top">Chirag Vasava</a> &nbsp;·&nbsp; © 2026 &nbsp;·&nbsp; Handcrafted with passion ☕</p>
+  </div>
+</footer>
+
+<!-- Back to top -->
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <i class="fa-solid fa-chevron-up"></i>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
